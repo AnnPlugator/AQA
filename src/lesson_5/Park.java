@@ -36,7 +36,7 @@ public class Park {
         public void printAttractionInfo() {
             System.out.println("Attraction: " + getAttractionName());
             System.out.println("Opening Hours: " + getOpeningHours());
-            System.out.println("Price: $" + getPrice());
+            System.out.println("Price: " + getPrice() + " BYN");
             System.out.println();
         }
     }
