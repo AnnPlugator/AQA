@@ -30,7 +30,7 @@ public class Tasks {
     от 0 (0 исключительно) до 100 (100 включительно), то “Желтый”, если больше 100 (100 исключительно) - “Зеленый”;
     */
     public static void printColor(int value) {
-        System.out.println("3). " + (value < 0 ? "Красный" : (value <= 100 ? "Желтый" : "Зеленый")));
+        System.out.println("3). " + (value <= 0 ? "Красный" : (value <= 100 ? "Желтый" : "Зеленый")));
     }
 
     /*
