@@ -1,9 +1,10 @@
-package Lesson_12_junit_5;
+package test.Lesson_12_junit_5;
 
+import lesson_12.FactorialCalculator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class FactorialCalculatorTest {
+class FactorialCalculatorTestJunit {
 
     private final FactorialCalculator calculator = new FactorialCalculator();
 

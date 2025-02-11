@@ -1,4 +1,4 @@
-package Lesson_12_testng;
+package lesson_12;
 
 // Напишите программу, позволяющую вычислить факториал числа. Напишите юнит-тесты, используя TestNG.
 public class FactorialCalculator {

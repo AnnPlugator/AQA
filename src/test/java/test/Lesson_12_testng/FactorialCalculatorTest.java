@@ -1,5 +1,6 @@
-package Lesson_12_testng;
+package test.Lesson_12_testng;
 
+import lesson_12.FactorialCalculator;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
